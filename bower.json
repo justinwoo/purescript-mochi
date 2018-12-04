@@ -1,0 +1,21 @@
+{
+  "name": "purescript-mochi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinwoo/purescript-mochi.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-typelevel-prelude": "^3.0.0",
+    "purescript-foreign-object": "^1.1.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.0.0"
+  }
+}
