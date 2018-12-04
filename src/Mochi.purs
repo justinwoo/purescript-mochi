@@ -17,7 +17,6 @@ instance rowConstructRecord ::
 
 data Placeholder
 
--- TODO: replace FO.Object Placeholder with ST Foreign Object
 class ConstructRL (rl :: RL.RowList) (row :: # Type) fn | rl -> row fn where
   unsafeConstruct :: forall proxy. proxy rl -> FO.Object Placeholder -> fn
 
