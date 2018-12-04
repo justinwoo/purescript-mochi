@@ -6,7 +6,7 @@ Make yourself a record by stretching out the rows!
 
 ## Example
 
-```
+```purs
 type Fruits =
   { apple :: Int
   , banana :: String
